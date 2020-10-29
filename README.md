@@ -1,5 +1,5 @@
-# MyBootlid
-### boo19082751_application_mobile
+# Starter Flutter
+### starter_flutter
 
 ////////////////
 
@@ -33,7 +33,9 @@ Flutter 1.22.2
 
 |     Dependency     | Version  |
 | ------------------ | -------- |
+| flutter_svg        | 0.18.0   |
 | http               | 0.12.0+2 |
+| provider           | 4.3.2+2  |
 | shared_preferences | 0.5.7+1  |
 
 
