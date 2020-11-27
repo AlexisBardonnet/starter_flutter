@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:starter_flutter/components/buttons/mediumButton.dart';
 /* Theme */
 import 'package:starter_flutter/themes/colors.dart';
 
@@ -23,7 +24,17 @@ class _HomePageState extends State<HomePage> {
          body : Column(
             mainAxisAlignment : MainAxisAlignment.center,
             children : <Widget>[
-               Center(child: Text('Starter for Flutter project.')),
+               Center(child: Column(
+                  children: [
+                     Text('Starter for Flutter project.'),
+                     MediumButton(
+                        title          : 'Button',
+                        backroundColor : Colors.blue[200],
+                        fontColor      : CustomColors.White,
+                        onPressed      : (){},
+                     )
+                  ],
+               )),
             ],
          ),
       );
